@@ -71,7 +71,7 @@
   },
   "lint-staged": {
     "*.(js|html|css|scss|json)": [
-      "prettier --write",
+      "npm run format",
       "git add"
     ],
     "*.(js|jsx|ts|tsx)": [
