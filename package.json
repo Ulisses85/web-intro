@@ -7,7 +7,7 @@
     "clear-build-cache": "rm -rf .cache/ dist/",
     "dev": "parcel public/index.html",
     "build": "parcel public/index.html",
-    "format": "prettier --write \"src/**/*.{js,jsx,scss}\"",
+    "format": "prettier --write \"src/**/*.{html,js,jsx,css,scss}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -70,7 +70,7 @@
     }
   },
   "lint-staged": {
-    "*.(js|html|css|scss|json)": [
+    "*.(js|jsx|html|css|scss|json)": [
       "npm run format",
       "git add"
     ],
