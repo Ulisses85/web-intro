@@ -63,5 +63,19 @@
     "parcel-bundler": "^1.12.1",
     "prettier": "^2.0.5",
     "sass": "^1.26.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.(js|html|css|scss|json)": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.(js|jsx|ts|tsx)": [
+      "npm run lint"
+    ]
   }
 }
