@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-color: #282c34;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
+
+.App {
+  text-align: center; }
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff; }
+
+.var-highlight {
+  color: #c0ad60; }
+
+.string-highlight {
+  color: #fd955acc; }
+
+.project-highlight {
+  color: #c0ad60; }
+
+#typewriter {
+  font-size: 2em;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Courier New"; }
+  #typewriter:after {
+    content: "|";
+    animation: blink 500ms linear infinite alternate; }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.seperator {
+  margin-bottom: 30px;
+  width: 20%;
+  height: 3px;
+  background: #777;
+  border: none; }
+
+
+/*# sourceMappingURL=/src.7ed060e2.css.map */
