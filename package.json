@@ -7,6 +7,7 @@
     "clear-build-cache": "rm -rf .cache/ dist/",
     "dev": "parcel public/index.html",
     "build": "parcel public/index.html",
+    "deploy": "gh-pages -d dist",
     "format": "prettier --write \"src/**/*.{html,js,jsx,css,scss}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -62,6 +63,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.0.2",
+    "gh-pages": "^3.0.0",
     "husky": "^4.2.5",
     "parcel-bundler": "^1.12.1",
     "prettier": "^2.0.5",
