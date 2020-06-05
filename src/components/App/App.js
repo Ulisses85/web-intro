@@ -1,11 +1,39 @@
 import React from "react";
+import Typical from "react-typical";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to my website Lukasz K.</h1>
+        <link
+          href="https://fonts.googleapis.com/css?family=Raleway:200,100,400"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <h1>
+          <span className="string-highlight">&lt; Lukasz Kuligowski /&gt;</span>{" "}
+          software developer
+        </h1>
+        <div className="seperator"></div>
+        <h2>
+          He is
+          <Typical
+            className="txt-rotate string-highlight"
+            loop={Infinity}
+            wrapper="b"
+            steps={[
+              " nerdy. ",
+              1500,
+              " IoT enthusiast. ",
+              1500,
+              " loves BJJ 🥋",
+              1500,
+              " ALL YOU NEED!! ",
+              3000,
+            ]}
+          />
+        </h2>
       </header>
     </div>
   );

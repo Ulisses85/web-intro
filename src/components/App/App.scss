@@ -1,10 +1,10 @@
-@import '../../_variables.scss';
+@import "../../_variables.scss";
 
 .App {
   text-align: center;
 }
 
-.App-header h1 {
+.App-header {
   background-color: $bg-color-primary;
   min-height: 100vh;
   display: flex;
@@ -12,6 +12,65 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $font-color-secondary;
 }
 
+.var-highlight {
+  color: #c0ad60;
+}
+.string-highlight {
+  color: rgba(253, 149, 90, 0.8);
+}
+
+.project-highlight {
+  color: #c0ad60;
+}
+
+#typewriter {
+  font-size: 2em;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Courier New";
+
+  &:after {
+    content: "|";
+    animation: blink 500ms linear infinite alternate;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.seperator {
+  margin-bottom: 30px;
+  width: 20%;
+  height: 3px;
+  background: #777;
+  border: none;
+}
