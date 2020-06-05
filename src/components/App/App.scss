@@ -16,14 +16,14 @@
 }
 
 .var-highlight {
-  color: #c0ad60;
+  color: $font-color-tertiary;
 }
 .string-highlight {
-  color: rgba(253, 149, 90, 0.8);
+  color: $font-color-highlight;
 }
 
 .project-highlight {
-  color: #c0ad60;
+  color: $font-color-tertiary;
 }
 
 #typewriter {
