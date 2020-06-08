@@ -27,7 +27,7 @@ function App() {
               1500,
               " an IoT enthusiast. ",
               1500,
-              " trains Brazilian Jiu-Jitsu 🥋",
+              " is Brazilian Jiu-Jitsu fanatic 🥋",
               1500,
               " ALL YOU NEED!! ",
               3000,
