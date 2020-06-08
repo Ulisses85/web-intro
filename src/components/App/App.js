@@ -25,9 +25,9 @@ function App() {
             steps={[
               " nerdy. ",
               1500,
-              " IoT enthusiast. ",
+              " an IoT enthusiast. ",
               1500,
-              " loves BJJ 🥋",
+              " trains Brazilian Jiu-Jitsu 🥋",
               1500,
               " ALL YOU NEED!! ",
               3000,
